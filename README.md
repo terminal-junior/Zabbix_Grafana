@@ -139,8 +139,8 @@ Login padrão:
 sudo firewall-cmd --permanent --add-service={http,https}
 sudo firewall-cmd --permanent --add-port=10050/tcp
 sudo firewall-cmd --permanent --add-port=10051/tcp
-sudo firewall-cmd --add-service=http --permanent
-sudo firewall-cmd --add-port=3000/tcp --permanent
+sudo firewall-cmd --permanent --add-service=http
+sudo firewall-cmd --permanent --add-port=3000/tcp
 sudo firewall-cmd --reload
 ```
 
