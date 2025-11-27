@@ -2,6 +2,8 @@
 
 Este documento descreve o procedimento completo para instalar e configurar o **Zabbix Server 7.4** com **PostgreSQL** e o **Grafana Enterprise** no **Rocky Linux 9**.
 
+Mais informações sobre na documentação do Zabbix em https://www.zabbix.com/ e Grafana em https://grafana.com/
+
 ---
 
 ## 📌 1. Atualizar o sistema
