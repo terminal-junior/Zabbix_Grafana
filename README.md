@@ -100,6 +100,11 @@ Exemplo:
 http://192.168.35.35/zabbix
 ```
 
+Login padrão:
+
+* **Usuário:** Admin
+* **Senha:** zabbix
+
 ---
 
 # 📊 Instalação do Grafana Enterprise
