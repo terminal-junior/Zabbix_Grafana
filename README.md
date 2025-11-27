@@ -136,6 +136,9 @@ Login padrão:
 ### Abrir portas do firewall
 
 ```bash
+sudo firewall-cmd --permanent --add-service={http,https}
+sudo firewall-cmd --permanent --add-port=10050/tcp
+sudo firewall-cmd --permanent --add-port=10051/tcp
 sudo firewall-cmd --add-service=http --permanent
 sudo firewall-cmd --add-port=3000/tcp --permanent
 sudo firewall-cmd --reload
