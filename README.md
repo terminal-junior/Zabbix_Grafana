@@ -169,6 +169,7 @@ sudo firewall-cmd --reload
 ---
 
 # 📈 Integração do Zabbix com Grafana
+
 ## 📌 1. Instalar o plugin de datasource Zabbix no Grafana
 
 O Grafana Enterprise já permite instalar plugins oficiais.
@@ -255,6 +256,7 @@ Problems → eventos e triggers
 Trends → histórico consolidado
 
 Text → informações brutas
+---
 
 ## ✔️ Finalizado!
 
